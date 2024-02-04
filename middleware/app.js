@@ -13,7 +13,7 @@ const app = express();
 // });
 
 
-
+// root route
 app.get('/',(req,res)=>{
     res.send('this is home page');
 })
